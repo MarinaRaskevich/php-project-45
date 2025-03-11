@@ -11,5 +11,9 @@
             "email": "marina.raskevich19@gmail.com"
         }
     ],
+    "description": "hexlet brain games project",
+    "bin": [
+  	"bin/brain-games"
+    ],
     "require": {}
 }
