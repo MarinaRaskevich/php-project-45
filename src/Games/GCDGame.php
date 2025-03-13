@@ -26,6 +26,6 @@ function generateGCDGameRound(): array
 function play(): void
 {
     buildGameProcess(GAME_RULES, function () {
-        return generateGCDgameRound();
+        return generateGCDGameRound();
     });
 }
