@@ -8,7 +8,7 @@ const GAME_RULES = 'Find the greatest common divisor of given numbers.';
 const MAX_VALUE = 100;
 const MIN_VALUE = 1;
 
-function generateEvenGameRound(): array
+function generateGCDGameRound(): array
 {
     $firstNum = rand(MIN_VALUE, MAX_VALUE);
     $secondNum = rand(MIN_VALUE, MAX_VALUE);
@@ -26,6 +26,6 @@ function generateEvenGameRound(): array
 function play(): void
 {
     buildGameProcess(GAME_RULES, function () {
-        return generateEvenGameRound();
+        return generateGCDgameRound();
     });
 }
