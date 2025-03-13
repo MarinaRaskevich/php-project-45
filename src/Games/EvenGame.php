@@ -2,7 +2,7 @@
 
 namespace BrainGames\Games\EvenGame;
 
-use function BrainGames\BuildGame\buildGameProcess;
+use function BrainGames\Engine\buildGameProcess;
 
 const GAME_RULES = 'Answer "yes" if the number is even, otherwise answer "no".';
 const MAX_VALUE = 50;
