@@ -1,27 +1,30 @@
 {
-    "name": "hexlet/code",
-    "autoload": {
-        "psr-4": {
-            "Hexlet\\Code\\": "src/"
-        },
-        "files": [
-            "src/Cli.php"
-        ]
+  "name": "hexlet/code",
+  "autoload": {
+    "psr-4": {
+      "Hexlet\\Code\\": "src/"
     },
-    "authors": [
-        {
-            "name": "MarinaRaskevich",
-            "email": "marina.raskevich19@gmail.com"
-        }
-    ],
-    "description": "hexlet brain games project",
-    "bin": [
-  	"bin/brain-games"
-    ],
-    "require": {
-        "wp-cli/php-cli-tools": "^0.12.4"
-    },
-    "require-dev": {
-        "squizlabs/php_codesniffer": "^3.11"
+    "files": [
+      "src/Cli.php",
+      "src/BuildGame.php",
+      "src/Games/EvenGame.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "MarinaRaskevich",
+      "email": "marina.raskevich19@gmail.com"
     }
+  ],
+  "description": "hexlet brain games project",
+  "bin": [
+    "bin/brain-even",
+    "bin/brain-games"
+  ],
+  "require": {
+    "wp-cli/php-cli-tools": "^0.12.4"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.11"
+  }
 }
