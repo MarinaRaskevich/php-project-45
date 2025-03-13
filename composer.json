@@ -6,8 +6,9 @@
     },
     "files": [
       "src/Cli.php",
-      "src/BuildGame.php",
-      "src/Games/EvenGame.php"
+      "src/Engine.php",
+      "src/Games/EvenGame.php",
+      "src/Games/CalcGame.php"
     ]
   },
   "authors": [
@@ -19,7 +20,8 @@
   "description": "hexlet brain games project",
   "bin": [
     "bin/brain-even",
-    "bin/brain-games"
+    "bin/brain-games",
+    "bin/brain-calc"
   ],
   "require": {
     "wp-cli/php-cli-tools": "^0.12.4"

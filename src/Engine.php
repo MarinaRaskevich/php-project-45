@@ -20,7 +20,7 @@ function buildGameProcess(string $gameRules, callable $generateRoundData): void
         line("Question: {$question}");
         $userAnswer = prompt('Your answer');
 
-        if ($userAnswer === $correctAnswer) {
+        if ($userAnswer == $correctAnswer) {
             line('Correct!');
         } else {
             line("'{$userAnswer}' is wrong answer ;(. Correct answer was '{$correctAnswer}'");
