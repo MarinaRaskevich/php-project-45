@@ -4,7 +4,7 @@ namespace BrainGames\Games\PrimeGame;
 
 use function BrainGames\Engine\buildGameProcess;
 
-const GAME_RULES = 'Answer "yes" if given number is prime. Otherwise answer "no"';
+const GAME_RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const MAX_VALUE = 10;
 const MIN_VALUE = 1;
 
