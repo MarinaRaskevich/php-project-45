@@ -29,5 +29,5 @@ function buildGameProcess(string $gameRules, callable $generateRoundData): void
         }
     }
 
-    line("Congratulations, {$name}");
+    line("Congratulations, {$name}!");
 }
