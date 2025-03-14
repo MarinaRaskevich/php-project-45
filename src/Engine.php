@@ -10,7 +10,7 @@ const ROUNDS_NUMBER = 3;
 function buildGameProcess(string $gameRules, callable $generateRoundData): void
 {
     echo "Welcome to the Brain Games!\n";
-    $name = prompt('May i have yout name?');
+    $name = prompt('May I have yout name?');
     line("Hello, %s!", $name);
     line($gameRules);
 
